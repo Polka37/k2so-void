@@ -2,9 +2,9 @@
   "name": "k2so-void",
   "version": "1.0.0",
   "title": "Krastorio2 SO Void",
-  "description": "Nauvis-less K2SO spinoff",
+  "description": "K2SO spinoff, Nauvis not included",
   "contact": "https://discord.gg/wCR2MVYqef",
-  "homepage": "https://github.com/Polka37/Krastorio2-Spaced-Out",
+  "homepage": "https://github.com/Polka37/k2so-void",
   "author": "Polka_37",
   "factorio_version": "2.0",
   "dependencies": [
