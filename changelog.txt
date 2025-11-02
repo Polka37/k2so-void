@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2025-11-2
+  Changes:
+    - Portable fission reactor no longer requires fuel and outputs 1MW
+  Bugfixes:
+    - Fixed startup error caused by carbide circuits no longer existing
+    - Fixed Spidertron was uncraftable
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2025-10-25
   Features:

@@ -19,3 +19,7 @@ if recycler then
 		recycler.result_inventory_size = 14
 	end
 end
+
+data.raw["spider-vehicle"]["spidertron"].energy_source = {
+	type = "void",
+}

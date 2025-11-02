@@ -22,7 +22,7 @@ data_util.add_prerequisite("biolab", "agricultural-science-pack")
 data_util.add_prerequisite("overgrowth-soil", "agricultural-science-pack")
 data_util.add_prerequisite("overgrowth-soil", "agricultural-science-pack")
 data_util.add_prerequisite("production-science-pack", "advanced-material-processing")
-data_util.add_prerequisite("spidertron", "portable-fusion-reactor")
+data_util.add_prerequisite("spidertron", "fission-reactor-equipment")
 data_util.add_prerequisite("fission-reactor-equipment", "electromagnetic-science-pack")
 data_util.add_prerequisite("kr-quarry-mineral-extraction", "recycling")
 
