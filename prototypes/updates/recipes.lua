@@ -1,8 +1,5 @@
 local data_util = require("__Krastorio2-spaced-out__.data-util")
 
-data.raw.recipe["kr-carbide-processing-circuit"].hidden_factoriopedia = true
-data.raw.recipe["kr-carbide-processing-circuit"].hidden = true
-
 for _, recipe in pairs(data.raw.recipe) do
 	for _, ingredients in pairs(recipe.ingredients or {}) do
 		if ingredients.name == "biter-egg" then
@@ -30,7 +27,7 @@ data_util.add_or_replace_ingredient(
 )
 data_util.add_or_replace_ingredient(
 	"spidertron",
-	"kr-portable-fusion-reactor-equipmnet",
+	"kr-fusion-reactor-equipment",
 	{ type = "item", name = "fission-reactor-equipment", amount = 1 }
 )
 
