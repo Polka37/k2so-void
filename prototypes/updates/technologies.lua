@@ -1,7 +1,6 @@
 local data_util = require("__Krastorio2-spaced-out__.data-util")
 
 data.raw.technology["fish-breeding"].hidden = true
-data.raw.technology["tree-seeding"].hidden = true
 data.raw.technology["uranium-ammo"].hidden = true
 data.raw.technology["nuclear-fuel-reprocessing"].hidden = true
 data.raw.technology["captive-biter-spawner"].hidden = true
