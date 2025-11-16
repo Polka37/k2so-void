@@ -12,5 +12,6 @@
     "space-age >= 2.0.69",
     "Krastorio2-spaced-out >= 1.5.0",
     "any-planet-start >= 1.1.22"
-  ]
+  ],
+  "space_travel_required": true
 }
