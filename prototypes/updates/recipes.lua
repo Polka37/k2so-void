@@ -35,6 +35,11 @@ data_util.add_or_replace_ingredient(
 	"kr-fusion-reactor-equipment",
 	{ type = "item", name = "fission-reactor-equipment", amount = 1 }
 )
+data_util.add_or_replace_ingredient(
+	"kr-imersite-rifle-magazine",
+	"kr-uranium-rifle-magazine",
+	{ type = "item", name = "kr-rifle-magazine", amount = 1 }
+)
 
 data_util.add_or_replace_product("scrap-recycling", "kr-imersite-crystal", {
 	type = "item",
