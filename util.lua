@@ -19,12 +19,13 @@ local types = {
 	"reactor",
 	"resource",
 }
---- @param Prototype name
-function util.hide(Prototype)
+--- @param prototype Name
+function util.hide(prototype)
 	for _, type in pairs(types) do
-		if data.raw[type][Prototype] then
-			data.raw[type][Prototype].hidden = true
-			data.raw[type][Prototype].hidden_in_factoriopedia = true
+		local prototype = data.raw[type][prototype]
+		if prototype then
+			prototype.hidden = true
+			prototype.hidden_in_factoriopedia = true
 		end
 	end
 end

@@ -1,9 +1,15 @@
-data.raw["space-connection"]["nauvis-vulcanus"] = nil
-data.raw["space-connection"]["nauvis-gleba"] = nil
-data.raw["space-connection"]["nauvis-fulgora"] = nil
 data.raw["planet"]["nauvis"].map_gen_settings = nil
 data.raw["planet"]["nauvis"].hidden = true
 
+for _, planet in pairs(data.raw["planet"]) do
+	local planet = planet.name
+	if data.raw["space-connection"]["nauvis-" .. planet] then
+		data.raw["space-connection"]["nauvis-" .. planet] = nil
+	end
+	if data.raw["space-connection"][planet .. "-nauvis"] then
+		data.raw["space-connection"][planet .. "-nauvis"] = nil
+	end
+end
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 data:extend({

@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
 Date: 2025-12-29
+  Compatibility:
+    - Made sure all connections with Nauvis are hidden
   Changes:
     - Hidden all unnacesible Nauvis related items
 ---------------------------------------------------------------------------------------------------
