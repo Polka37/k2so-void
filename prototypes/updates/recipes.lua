@@ -1,6 +1,10 @@
 local data_util = require("__Krastorio2-spaced-out__.data-util")
 
+-- Replace biter eggs with pentapod ones
 for _, recipe in pairs(data.raw.recipe) do
+	if recipe.name == "kr-biter-biomass" then
+		goto next
+	end
 	for _, ingredients in pairs(recipe.ingredients or {}) do
 		if ingredients.name == "biter-egg" then
 			data_util.convert_ingredient(recipe.name, "biter-egg", "pentapod-egg")
@@ -15,6 +19,7 @@ for _, recipe in pairs(data.raw.recipe) do
 			)
 		end
 	end
+	::next::
 end
 
 data_util.remove_ingredient("fusion-power-cell", "kr-tritium")

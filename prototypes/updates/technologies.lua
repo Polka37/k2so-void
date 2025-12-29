@@ -1,22 +1,5 @@
 local data_util = require("__Krastorio2-spaced-out__.data-util")
 
-data.raw.technology["fish-breeding"].hidden = true
-data.raw.technology["uranium-ammo"].hidden = true
-data.raw.technology["nuclear-fuel-reprocessing"].hidden = true
-data.raw.technology["captive-biter-spawner"].hidden = true
-data.raw.technology["biter-egg-handling"].hidden = true
-data.raw.technology["captivity"].hidden = true
-data.raw.technology["planet-discovery-nauvis"].hidden = true
-data.raw.technology["kr-nuclear-locomotive"].hidden = true
-data.raw.technology["kr-matter-uranium-processing"].hidden = true
-data.raw.technology["atomic-bomb"].hidden = true
-data.raw.technology["kr-fusion-reactor-equipment"].hidden = true
-data.raw.technology["kr-fusion-energy"].hidden = true
-data.raw.technology["nuclear-power"].hidden = true
-data.raw.technology["kovarex-enrichment-process"].hidden = true
-data.raw.technology["uranium-processing"].hidden = true
-data.raw.technology["uranium-mining"].hidden = true --required to mine with liquds, will break mod compatibility TODO add generic fluid mining technology
-
 data_util.add_prerequisite("biolab", "agricultural-science-pack")
 data_util.add_prerequisite("overgrowth-soil", "agricultural-science-pack")
 data_util.add_prerequisite("overgrowth-soil", "agricultural-science-pack")
